@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>特邀报告</title>
+
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #DCDCDC;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ 元素/标签选择器 ~~ */
+ul, ol, dl { /* 由于浏览器之间的差异，最佳做法是在列表中将填充和边距都设置为零。为了保持一致，您可以在此处指定需要的数值，也可以在列表所包含的列表项（LI、DT 和 DD）中指定需要的数值。请注意，除非编写一个更为具体的选择器，否则您在此处进行的设置将会层叠到 .nav 列表。 */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0px;	 /* 删除上边距可以解决边距会超出其包含的 div 的问题。剩余的下边距可以使 div 与后面的任何元素保持一定距离。 */
+	margin-bottom: 0;
+	padding-right: 15px;
+	padding-left: 15px; /* 向 div 内的元素侧边（而不是 div 自身）添加填充可避免使用任何方框模型数学。此外，也可将具有侧边填充的嵌套 div 用作替代方法。 */
+	line-height: 23px;
+}
+a img { /* 此选择器将删除某些浏览器中显示在图像周围的默认蓝色边框（当该图像包含在链接中时） */
+	border: none;
+}
+/* ~~ 站点链接的样式必须保持此顺序，包括用于创建悬停效果的选择器组在内。 ~~ */
+a:link {
+	color: #000000;
+	text-decoration: none; /* 除非将链接设置成极为独特的外观样式，否则最好提供下划线，以便可从视觉上快速识别 */
+}
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠标使用者相同的悬停体验。 */
+	text-decoration: none;
+}
+
+/* ~~ 此固定宽度容器包含其它 div ~~ */
+.container {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0 auto; /* 侧边的自动值与宽度结合使用，可以将布局居中对齐 */
+}
+
+/* ~~ 标题未指定宽度。它将扩展到布局的完整宽度。标题包含一个图像占位符，该占位符应替换为您自己的链接徽标 ~~ */
+.header {
+	background-color: #ADB96E;
+}
+
+/* ~~ 这是布局信息。 ~~ 
+
+1) 填充只会放置于 div 的顶部和/或底部。此 div 中的元素侧边会有填充。这样，您可以避免使用任何“方框模型数学”。请注意，如果向 div 自身添加任何侧边填充或边框，这些侧边填充或边框将与您定义的宽度相加，得出 *总计* 宽度。您也可以选择删除 div 中的元素的填充，并在该元素中另外放置一个没有任何宽度但具有设计所需填充的 div。
+
+*/
+
+.content {
+	padding: 1px 0;
+}
+
+.MenuBarHorizontal {
+    height: 80px;
+	margin: 0 auto;
+}
+.MenuBarHorizontal li.current a{  
+background: #2A9F55;
+}
+
+.text {
+	padding: 0 20px 10px 30px;
+}
+
+
+.w1{
+	width:200px;
+	height:200px;
+	}
+	
+.footer {
+	padding: 10px 0;
+	background-color:rgb(77,169,71);
+	font-size: 12px;
+}
+
+/* ~~ 其它浮动/清除类 ~~ */
+.fltrt {  /* 此类可用于在页面中使元素向右浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* 此类可用于在页面中使元素向左浮动。浮动元素必须位于其在页面上的相邻元素之前。 */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* 如果从 #container 中删除或移出了 #footer，则可以将此类放置在 <br /> 或空 div 中，作为 #container 内最后一个浮动 div 之后的最终元素 */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.tablepp {
+	font-size: 14px;
+}
+-->
+</style>
+
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><a href="#"><img src="logo.png" name="Insert_logo" width="961" height="202" id="Insert_logo" style="background-color: #C6D580; display:block;" /></a> 
+    <!-- end .header --></div>
+  <div class="content">
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li>
+        <div align="center"><a href="index.html">首页</a></div>
+      </li>
+      <li >
+        <div align="center"><a href="news.html">会议动态</a></div>
+      </li>
+      <li class="current">
+        <div align="center"><a href="speakers.html">往届特邀报告</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="register.html">参会注册</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="map.html">酒店交通</a></div>
+      </li>
+      <li>
+        <div align="center"><a href="contact.html">联系我们</a></div>
+      </li>
+    </ul>
+
+    <div class="text">
+      <h3> <li>&nbsp;Keynote Speakers WMCTE 2017</li></h3>
+    </div>
+
+    <table  class="tablepp" align="center" width="762" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td><a href="http://weitzlab.seas.harvard.edu
+"><img src="res/weitz.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="http://weitzlab.seas.harvard.edu
+"><font color="#028B24">Prof. David A. Weitz</font></a> -- 哈佛大学工程与应用科学学院教授，微流控、生物材料、生物物理等交叉学科研究领域的知名专家，美国科学院、工程院、艺术与科学院三院院士，英国皇家化学会会士。已发表高水平SCI论文600多篇，其中30余篇发表在Nature，Science，Cell等国际顶级刊物上，论文被引6万余次。</p></td>
+        </tr>
+         <tr>
+          <td><a href="http://bme.columbia.edu/kam-w-leong
+"><img src="res/Leong2.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="http://bme.columbia.edu/kam-w-leong
+"><font color="#028B24">Prof.Kam Leong</font> </a>-- 美国工程院院士，美国Columbia大学生物医学工程系终身教授，在Nature Medicine, Nature Materials, PNAS等期刊发表300多篇论文，被引用29680 次，已授权专利约50 项，公开专利约30 项。任Biomaterials的主编，并为多个著名期刊如Nano Today, Molecular Therapy, Biomacromolecules等编委。</p></td>
+        </tr>
+        <tr>
+          <td><a href="https://www.bme.cornell.edu/people/profile.cfm?netid=mls50
+"><img src="res/shuler.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="https://www.bme.cornell.edu/people/profile.cfm?netid=mls50
+"><font color="#028B24">Prof. Michael L. Shuler</font></a> -- 康奈尔大学生物医学工程教授，康奈尔纳米生物中心主席，微器官芯片的开拓者和领军者，美国工程院、艺术与科学院院士，世界近现代一百位工程师之一，荣获美国化学学会Marvin J. Johnson 奖、Pritzker奖、lush奖等。</p></td>
+          </tr>
+        <tr>
+          <td width="101"><a href="http://www.lbb.ethz.ch/the-group/people/person-details.html?persid=95417
+"><img src="res/voros.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="661"><p><a href="http://www.lbb.ethz.ch/the-group/people/person-details.html?persid=95417
+"><font color="#028B24">Prof. Janos Vörös</font></a> -- 苏黎世联邦理工学院信息科学与电气工程系教授，生物传感器与生物电子学领域专家，擅长微阵列生物传感技术及其在诊断和药物筛选中的应用，以及纳米生物技术在神经网络中的应用，曾获RSC P.-G.de Gennes prize 奖。</p></td>
+          </tr>
+        <tr>
+          <td><a href="https://medicine.osu.edu/regenerativemedicine/wound_burn_trauma/ronaldxu/pages/index.aspx
+"><img src="res/xu.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="https://medicine.osu.edu/regenerativemedicine/wound_burn_trauma/ronaldxu/pages/index.aspx
+"><font color="#028B24">Prof. Ronald Xu</font></a> -- 俄亥俄州立大学生物医学工程学院副教授，研究领域涉及医疗器械研发和创新、皮肤创面的超光谱成像、多模成像、图像介导治疗和给药等。</p></td>
+          </tr>
+        <tr>
+          <td><a href="http://chem.nju.edu.cn/staff/staff.asp?iname=%B3%C2%BA%E9%D4%A8
+"><img src="res/chen.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="http://chem.nju.edu.cn/staff/staff.asp?iname=%B3%C2%BA%E9%D4%A8
+"><font color="#028B24">陈洪渊 院士</font></a> -- 南京大学化学化工学院教授，中国科学院院士（2001年当选），长期从事电化学分析基础、仿生催化、生物电化学、化学生物学和微全分析系统等领域的研究，主持完成了国家、省部委和国际合作科研项目近40项，发表论文近800篇， H因子为76，曾获国家自然科学二等奖、全国科学大会奖、Nature杰出导师奖等。</p></td>
+          </tr>
+        <tr>
+          <td><a href="http://bme.seu.edu.cn/2011/1017/c463a12264/page.htm
+"><img src="res/gu.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="http://bme.seu.edu.cn/2011/1017/c463a12264/page.htm
+"><font color="#028B24">顾忠泽 教授</font></a> -- 长江，杰青，东南大学生物科学与医学工程学院院长、国家科技重大专项专家、国务院学位委员会生物医学评议组成员，仿生材料领域专家，曾获教育部自然科学一等奖、日内瓦发明博览会特别金奖等，目前在研器官芯片项目。已发表影响因子10以上论文38篇，他引近7000次，获专利42项，转让7项。</p></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.gsc.dicp.ac.cn/ds/2009/fenxi1/linbingcheng.htm
+"><img src="res/lin.jpg" width="100" height="100" alt=""/></a></td>
+          <td width="auto"><p><a href="http://www.gsc.dicp.ac.cn/ds/2009/fenxi1/linbingcheng.htm
+"><font color="#028B24">林炳承 研究员</font></a> -- 中国科学院大连化学物理研究所研究员， 德国 Tübingen大学、美国Truman 州立大学、香港大学、意大利科学院客座教授，Lab on a Chip、JBBM 编委，Electrophoresis 副主编，长期从事微流控芯片实验室研究，并以生物医学和药学为主要应用对象。发表论文260余篇，出版专著7部，申请或持有微流控芯片领域发明专利50余项。</p></td>
+        </tr>
+        <tr>
+          <td><img src="res/wang.jpg" width="100" height="100" alt=""/></td>
+          <td width="auto"><p><font color="#028B24">王常勇 研究员 </font>-- 中国人民解放军军事医学科学学院研究员，2011年国家杰出青年科学基金获得者，主要从事组织工程与神经工程等前沿交叉学科方面的研究，是国内组织工程、生物材料相关领域的主要学术带头人之一，在体外构建了工程化心肌、肺脏、肾脏及子宫组织，掌握了一批重要生命器官构建的关键技术。</p></td>
+          </tr>
+           <tr>
+          <td><img src="res/wangdayang.jpg" width="100" height="100" alt=""/></td>
+          <td width="auto"><p><font color="#028B24">汪大洋 教授</font> -- 吉林大学化学学院及无机合成与制备化学国家重点实验室教授，中组部国家千人计划专家，英国皇家化学会会士（FRSC）；多年来致力于与固体表面润湿和粘附和水、气、离子和粒子的界面行为相关的基本问题的研究 ，并且积极地将基础科研成果转化为具有商业潜值的新型高效环保治理，保护和修复技术；在截至目前已发表 128余篇高水平的研究论文，其中30%以上发表在化学和材料科学领域顶级杂志上（影响因子> 10），其中Angew. Chem. Int. Ed. 13篇。</p></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <p>&nbsp;</p>
+  <!-- end .content --></div>
+  <div class="footer">
+    <p align="center">微流控芯片与组织工程研讨会 <br>
+Workshop  on Microfluidic Chip and Tissue Engineering (WMCTE 2017)</p>
+    <p align="center">东南大学115周年系列活动<br>
+      主办单位：<a href="http://seu.edu.cn">东南大学</a> 承办单位：<a href="http://sklb.seu.edu.cn">生物电子学国家重点实验室</a> <a href="http://bme.seu.edu.cn">生物科学与医学工程学院</a></p>
+  <!-- end .footer --></div>
+<!-- end .container --></div>
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
